@@ -1,0 +1,3 @@
+^D:\TALK_WORK_DIR\TALK\IMPORTFILE\ELECTRON\NODE_C++\BUILD\RELEASE\ADDON.NODE
+call mkdir "..\third_party" 2>nul & set ERRORLEVEL=0 & copy /Y "..\build\Release\addon.node" "..\third_party\addon.node"
+if %errorlevel% neq 0 exit /b %errorlevel%

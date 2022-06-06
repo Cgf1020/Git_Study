@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "addon", "addon.vcxproj", "{0C9ACEC6-62D0-11E9-6164-53A1ECA41217}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "copy_binary", "copy_binary.vcxproj", "{FF66AEEE-C0D2-7DF8-3244-47BA1B2E37EA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0C9ACEC6-62D0-11E9-6164-53A1ECA41217} = {0C9ACEC6-62D0-11E9-6164-53A1ECA41217}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C9ACEC6-62D0-11E9-6164-53A1ECA41217}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0C9ACEC6-62D0-11E9-6164-53A1ECA41217}.Debug|Win32.Build.0 = Debug|Win32
+		{0C9ACEC6-62D0-11E9-6164-53A1ECA41217}.Release|Win32.ActiveCfg = Release|Win32
+		{0C9ACEC6-62D0-11E9-6164-53A1ECA41217}.Release|Win32.Build.0 = Release|Win32
+		{FF66AEEE-C0D2-7DF8-3244-47BA1B2E37EA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FF66AEEE-C0D2-7DF8-3244-47BA1B2E37EA}.Debug|Win32.Build.0 = Debug|Win32
+		{FF66AEEE-C0D2-7DF8-3244-47BA1B2E37EA}.Release|Win32.ActiveCfg = Release|Win32
+		{FF66AEEE-C0D2-7DF8-3244-47BA1B2E37EA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
